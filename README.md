@@ -11,7 +11,7 @@
 
 
 ## Contents
--[Latest version](https://github.com/LuckSiege/PictureSelector/releases/tag/v3.11.2)<br>
+-[Latest version](https://jitpack.io/#xdm-hub/PictureSelector)<br>
 -[Download](#Download)<br>
 -[Usage](#Usage)<br>
 -[Permission](#Permission)<br>
