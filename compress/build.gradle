@@ -2,7 +2,12 @@ apply plugin: 'com.android.library'
 
 buildscript {
     repositories {
-        jcenter()
+        maven { url 'https://maven.aliyun.com/repository/central/' }
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+        maven { url "https://jitpack.io" }
+        maven { url 'https://developer.huawei.com/repo/' }
     }
     dependencies {
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
@@ -10,11 +15,11 @@ buildscript {
 }
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 27
+        targetSdkVersion 34
     }
     buildTypes {
         release {
